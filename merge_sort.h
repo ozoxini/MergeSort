@@ -5,8 +5,6 @@
 
 namespace MergeSort {
     void Sort(std::vector<int>& array);
-
-private:
     void Merge(std::vector<int>& array, int left, int middle, int right);
 }
 
